@@ -16,6 +16,7 @@ rust-version = "1.85"
 readme = "README.md"
 keywords = ["cbor", "rfc8949", "no-std", "serialization", "embedded"]
 categories = ["encoding", "no-std", "embedded"]
+exclude = ["rfc8949.txt"]
 
 [dependencies]
 half = { version = "2.7.1", default-features = false, optional = true }
@@ -30,3 +31,4 @@ std = []
 deterministic_encoding = ["std"]
 standard_tags = []
 spans = []
+
